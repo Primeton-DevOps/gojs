@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>GoJS</title>
-<meta charset="UTF-8">
-<script type="text/javascript" src="../lib/go.js"></script>
-<link href="../lib/goSamples.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="minimal.js"></script>
+  <title>GoJS</title>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="../lib/go.js"></script>
+  <link href="../lib/goSamples.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="index.js"></script>
 </head>
-<body onload="init();">
-<div id="sample">
+
+<body onload="initGojsChart('myDiagramDiv')">
+  <a onclick="refreshGojsChart(); return false;">刷新</a>
   <div id="myDiagramDiv" style="border: solid 1px black; width:500px; height:500px"></div>
-</div>
 </body>
+
 </html>
